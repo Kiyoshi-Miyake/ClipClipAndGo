@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Actions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ActionConfig>
+		<title>DuckDuckGo</title>
+		<action>https://duckduckgo.com/?q={0}</action>
+		<args></args>
+		<shortcutkey>D</shortcutkey>
+		<icon_path>https://duckduckgo.com/favicon.ico</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>DeepL Write</title>
+		<action>https://www.deepl.com/write#en/{0}</action>
+		<args></args>
+		<shortcutkey>W</shortcutkey>
+		<icon_path>C:\Users\kiyos\Downloads\snow_favcon.ico</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>DeepL En -> Jp</title>
+		<action>https://www.deepl.com/ja/translator#en/ja/{0}</action>
+		<args></args>
+		<shortcutkey>L</shortcutkey>
+		<icon_path>https://static.deepl.com/img/favicon/favicon_32.png</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>DeepL Ja -> En</title>
+		<action>https://www.deepl.com/ja/translator#ja/en/{0}</action>
+		<args></args>
+		<shortcutkey>J</shortcutkey>
+		<icon_path>https://static.deepl.com/img/favicon/favicon_32.png</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>Google Search</title>
+		<action>https://www.google.co.jp/search?q={0}</action>
+		<args></args>
+		<shortcutkey>G</shortcutkey>
+		<icon_path>https://www.google.co.jp/favicon.ico</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>Open url by Chrome</title>
+		<action>C:\Program Files\Google\Chrome\Application\chrome.exe</action>
+		<args>{0}</args>
+		<shortcutkey>C</shortcutkey>
+		<icon_path>C:\Program Files\Google\Chrome\Application\chrome.exe</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>Open url by Edge</title>
+		<action>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</action>
+		<args>{0}</args>
+		<shortcutkey>E</shortcutkey>
+		<icon_path>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>ServiceNow</title>
+		<action>https://www.servicenow.com/</action>
+		<args></args>
+		<shortcutkey>S</shortcutkey>
+		<icon_path>https://www.servicenow.com/favicon.ico</icon_path>
+	</ActionConfig>
+	<ActionConfig>
+		<title>WinMerge(Clipboard)</title>
+		<action>C:\\Program Files\\WinMerge\\WinMergeU.exe</action>
+		<args>-clipboard-compare</args>
+		<shortcutkey>M</shortcutkey>
+		<icon_path>C:\\Program Files\\WinMerge\\WinMergeU.exe</icon_path>
+	</ActionConfig>
+</Actions>
